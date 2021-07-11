@@ -42,9 +42,6 @@ const Home = (): JSX.Element => {
 							ease: "circOut",
 						},
 					}}
-					css={[
-						tw`bg-secondary-200 w-full max-w-6xl p-8 rounded-2xl text-black`,
-					]}
 				>
 					<div tw="flex flex-col space-y-8 justify-center items-center md:space-y-0 md:flex-row md:justify-between">
 						<a
