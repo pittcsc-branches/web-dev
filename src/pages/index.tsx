@@ -22,7 +22,7 @@ const Home = (): JSX.Element => {
 						tw`bg-secondary-200 w-full max-w-6xl p-8 rounded-2xl text-black`,
 					]}
 				>
-					<div tw="flex flex-col space-y-8 justify-center items-center md:space-y-0 md:flex-row md:justify-between">
+					<div tw="flex flex-col space-y-8 justify-center items-center flex-wrap md:space-x-4 md:space-y-0 md:flex-row md:justify-center">
 						<a
 							href="https://pittcs.wiki/skills/getting-started-with-x/web-dev/"
 							rel="noreferrer noopener"
@@ -30,7 +30,7 @@ const Home = (): JSX.Element => {
 						>
 							<div
 								className="group"
-								tw="w-full md:w-80 text-center space-y-2"
+								tw="w-full md:w-64 xl:w-80 text-center space-y-2"
 							>
 								<img
 									src="https://i.ibb.co/LgnJ94t/cs-wiki.png"
@@ -49,7 +49,7 @@ const Home = (): JSX.Element => {
 						>
 							<div
 								className="group"
-								tw="w-full md:w-80 text-center space-y-2"
+								tw="w-full md:w-64 xl:w-80 text-center space-y-2"
 							>
 								<img
 									src="https://i.ibb.co/WVJJNWF/dev-community.png"
@@ -68,7 +68,7 @@ const Home = (): JSX.Element => {
 						>
 							<div
 								className="group"
-								tw="w-full md:w-80 text-center space-y-2"
+								tw="w-full md:w-64 xl:w-80 text-center space-y-2"
 							>
 								<img
 									src="https://i.ibb.co/fdF6Q0B/css-tricks.png"
