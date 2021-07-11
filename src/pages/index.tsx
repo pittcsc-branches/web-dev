@@ -24,9 +24,6 @@ const Home = (): JSX.Element => {
 							ease: "circOut",
 						},
 					}}
-					css={[
-						tw`font-extralight text-3xl md:text-5xl lg:text-7xl`,
-					]}
 				>
 					Pitt CSC Web-Dev Branch{" "}
 					<span tw="inline-block transform transition hover:scale-110">
