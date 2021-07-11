@@ -21,8 +21,7 @@
 	},
 	"include": [
 		"./src/**/*",
-		"*twin.d.ts",
-		"image.d.ts",
+		"*.d.ts",
 		".eslintrc.js",
 		".prettierrc.js",
 		"gatsby-config.js",
