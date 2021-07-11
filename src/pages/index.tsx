@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import "twin.macro";
-import { motion } from "framer-motion";
 import CSWiki from "../images/cs-wiki.png";
 import Dev from "../images/dev-community.png";
 import CSSTricks from "../images/css-tricks.png";
@@ -11,33 +10,13 @@ const Home = (): JSX.Element => {
 		<Layout>
 			<SEO />
 			<main tw="text-white text-center bg-gradient-to-r px-4 from-primary to-blue-700 flex justify-center items-center flex-col space-y-8 w-full h-screen">
-				<motion.h1
-					initial={{ y: 50, opacity: 0 }}
-					animate={{ y: 0, opacity: 1 }}
-					transition={{
-						duration: 0.8,
-						delay: 0.2,
-						type: "tween",
-						ease: "circOut",
-					}}
-					tw="font-extralight text-3xl md:text-5xl lg:text-7xl"
-				>
+				<h1 tw="font-extralight text-3xl md:text-5xl lg:text-7xl">
 					Pitt CSC Web-Dev Branch{" "}
 					<span tw="inline-block transform transition hover:scale-110">
 						👩‍💻
 					</span>
-				</motion.h1>
-				<motion.div
-					initial={{ y: 50, opacity: 0 }}
-					animate={{ y: 0, opacity: 1 }}
-					transition={{
-						duration: 0.8,
-						delay: 0.4,
-						type: "tween",
-						ease: "circOut",
-					}}
-					tw="bg-secondary-200 w-full max-w-6xl p-8 rounded-2xl text-black"
-				>
+				</h1>
+				<div tw="bg-secondary-200 w-full max-w-6xl p-8 rounded-2xl text-black">
 					<div tw="flex flex-col space-y-8 justify-center items-center md:space-y-0 md:flex-row md:justify-between">
 						<a
 							href="https://dev.to/"
@@ -97,7 +76,7 @@ const Home = (): JSX.Element => {
 							</div>
 						</a>
 					</div>
-				</motion.div>
+				</div>
 			</main>
 		</Layout>
 	);
